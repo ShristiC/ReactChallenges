@@ -1,0 +1,58 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.blue-card {
+  height: 100%;
+  width: 50%;
+  background: linear-gradient(hsl(252, 100%, 67%),  hsl(241, 81%, 54%));
+  border-radius: 25px;
+  flex-grow: 1;
+}
+
+.white-card {
+  flex-grow: 1;
+  width: 50%;
+  height: 100%;
+}
+
+.card {
+  width: 600px;
+  height: 500px;
+  background: hsl(0, 0%, 100%);
+  box-shadow: 10px 15px 30px 4px hsl(221, 100%, 96%);
+  border-radius: 25px;
+  display: flex;
+}
+
+.inner-card {
+  display:'flex';
+  flex-direction: 'column';
+  padding: 20px;
+  justify-content: space-around;
+}
+
+text {
+  font-family: 'Hanken Grotesk';
+  font-weight: extra-bold;
+}
+
+.label-text {
+  color: hsla(221, 100%, 96%);
+  font-size: 18px;
+}
+
+.circle {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin-left: 30px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
