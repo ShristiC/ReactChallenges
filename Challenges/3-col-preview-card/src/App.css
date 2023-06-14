@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main-section {
+  display: flex;
+}
+
+.card {
+  padding: 3em;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  height: 400px;
+  width: 200px;
+}
+
+.button {
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 25px;
+  position: relative;
+  margin-top: 60%;
+  width: 70%;
+  text-align: center;
+  display: flex;
+}
+
+.align-left {
+  display: flex !important;
+  text-align: left !important;
+}
+
+h2 {
+  font-family: 'Big Shoulders Display';
+  font-weight: 700;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'Lexend Deca';
+  font-weight: 400;
+  font-size: 15px;
+}
