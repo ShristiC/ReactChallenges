@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import luxuryIcon from './assets/icon-luxury.svg'
-import sedanIcon from './assets/icon-sedans.svg'
-import suvIcon from './assets/icon-suvs.svg'
+import luxuryIcon from './assets/icons/icon-luxury.svg'
+import sedanIcon from './assets/icons/icon-sedans.svg'
+import suvIcon from './assets/icons/icon-suvs.svg'
 
 import './App.css'
 
